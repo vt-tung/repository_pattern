@@ -12,7 +12,7 @@ class Posts extends Model
     public    $timestamps = true;
     protected $fillable
                           = [
-            'title', 'short_desc', 'desc', 'image', 'post_category_id', 'created_at', 'updated_at'
+            'user_id', 'title', 'short_desc', 'desc', 'image', 'post_category_id', 'created_at', 'updated_at'
         ];
     protected $primaryKey = 'id';
     protected $table      = 'posts';
